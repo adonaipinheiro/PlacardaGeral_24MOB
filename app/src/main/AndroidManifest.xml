@@ -8,10 +8,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PlacardaGeral">
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".presentation.soccerGame.SoccerGameActivity"
+            android:exported="true"
+            android:theme="@style/ScreenTheme" />
+        <activity
+            android:name=".presentation.basketGame.BasketGameActivity"
+            android:exported="true"
+            android:theme="@style/ScreenTheme" />
+        <activity
+            android:name=".presentation.trucoGame.TrucoGameActivity"
+            android:exported="true"
+            android:theme="@style/ScreenTheme" />
+        <activity
+            android:name=".presentation.chooseGame.ChooseGameActivity"
+            android:exported="true"
+            android:theme="@style/ScreenTheme" />
+        <activity
+            android:name=".presentation.players.PlayersActivity"
+            android:exported="true"
+            android:theme="@style/ScreenTheme" />
+        <activity
+            android:name=".presentation.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
